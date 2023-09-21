@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E2 Navbar</title>
+    <title>Friendlys Cats</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./mediaqueries.css">
 </head>
 <body>
     <header>
         <nav>
-            <img class="logo" src="./Logo de cafetería cute lindo morado.png" alt="Logo">
+            <img class="logo" src="./Logo.png" alt="Logo">
+
+            <label for="menu-toggle" class="menu-label">
+                <img src="./menu.png" alt="menu">
+            </label>
+            <input type="checkbox" id="menu-toggle">
+
             <ul class="navbar-list">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Sobre nosotros</a></li>
@@ -23,7 +30,7 @@
                <div class="hero-content">
                     <h1> Friendlys Cats</h1>
                     <p>
-                        Nuestra mision esta dirigida al rescate y busqueda de hogar para la mayor cantidad de gatos callejeros del mundo
+                        Fundacion dirigida al rescate,rehabilitacion y adopcion de gatos. Estamos trabajando en toda la Argentina
                     </p>
 
                     <div class="hero-links">
@@ -37,14 +44,52 @@
                     <img src="./undraw_friends_r511.png" alt="">
                </div>        
             </section>
-            <section class="about">
-                
+            <section id="information">
+        
                 <div class="about-information">
+                    <h3>Quienes Somos</h3>
                     <p>Somos una fundacion dirigida por rescatitas donde dia a dia nos encargamos de rescatar,rehabilitar y encontrarles un hogar a los gatos en situacion de calle, si te interesa saber mas contactanos</p>
                   </div>
 
             </section>
+
+            <section id="Cards">
+                <div class="card-container">
+
+                    <div class="card-info">
+                        <img src="./Cards-gato.png" alt="Card-de-gato">
+                        <h3>Adopcion segura</h3>
+                        <p>En Friendlys Cats nos encargaremos de encontrar un lugar segura para cada gato,es por eso que para poder participar de la adopcion se debera completar una serie de formularios</p>
+                    </div> 
+                    
+                    <div class="card-info">
+                        <img src="./Cards-gato.png" alt="Card-de-gato">
+                        <h3>Mision</h3>
+                        <p>Nuestra mision esta dirigida al rescate y busqueda de hogar para la mayor cantidad de gatos callejeros del mundo
+                        </p></p>
+                    </div>    
+
+                    
+                    <div class="card-info">
+                        <img src="./Cards-gato.png" alt="Card-de-gato">
+                        <h3>Donaciones</h3>
+                        <p>La fundacion acepta donaciones, si queres colaborar con comida, camas para atos y demas cosas contacte con nosotros</p>
+                    </div> 
+                </div>
+            </section>
     </main>
+    <footer>
+        <div>
+            <ul class="footer-links">
+                <li><a href="#">Terminos y condiciones</a></li>
+                <li><a href="#">Trabaja con nosotros</a></li>
+                <li><a href="#">Soporte</a></li>
+            </ul>
+        </div>
+
+        <p>Te esperamos con tus dudas ❤️ </p>
+        <img src="./Logo.png" alt="logo">
+    </footer>
 
 </body>
 </html>
